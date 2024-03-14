@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+ body{
+    font-family: 'Roboto', sans-serif;
+ }  
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    width: 100%;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:30.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:400px;
+    width:100%;
+    position:absolute;
+  }
+  .fa-brands{
+   
+    border-radius: 50%;
+    border: 1px solid white ;
+    padding: 10px;
+  }
+  .card-subtitle{
+    font-family: 'Lemon', serif;
+  }
+  .card-link{
+    text-decoration: none;
+  }
+  .pic img{
+    border-radius: 50%;
+
+  }
+  .card{
+    transition: all 0.3s;
+  }
+
+  .card:hover{
+    transform:scale(1.07);
+  }
+  .no:hover img {
+      transform: scale(1.1); /* Adjust the scale factor for desired zoom level */
+  }
+  
+
+
+ 
